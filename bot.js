@@ -96,17 +96,19 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					to: channelID,
 					message: 'You rolled ' + successes + ' success - you ' + (successes > 0 ? 'passed!' : 'failed.')
 				});
-				if(successes > 0 && skills[args[0]].question.length > 0) {
-					bot.sendMessage({
-						to: channelID,
-						message: 'You may now ask two of the following:\r\n-' + skills[args[0]].question.join('\r\n-')
-					});
-				}
-				if(successes > 1) {
-					bot.sendMessage({
-						to: channelID,
-						message: 'With your extra ' + (successes - 1) + ' success(es), you can:\r\n-' + skills[args[0]].bonus.join('\r\n-')
-					});
+				if(skills[args[0]]) {
+					if(successes > 0 && skills[args[0]].question.length > 0) {
+						bot.sendMessage({
+							to: channelID,
+							message: 'You may now ask two of the following:\r\n-' + skills[args[0]].question.join('\r\n-')
+						});
+					}
+					if(successes > 1) {
+						bot.sendMessage({
+							to: channelID,
+							message: 'With your extra ' + (successes - 1) + ' success(es), you can:\r\n-' + skills[args[0]].bonus.join('\r\n-')
+						});
+					}
 				}
          }
      }
