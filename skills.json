@@ -1,0 +1,50 @@
+{
+	"sneak": {
+		"question": [],
+		"bonus": ["give a success to another kid", "find something unexpected, find more than you were looking for"]
+	},
+	"force": {
+		"question": [],
+		"bonus": ["give a success to another kid", "impress, frighten, or humiliate", "pin your opponent", "take something from your opponent", "knock your opponent unconscious", "avoid rolls for the exact same trouble in the future", "avoid any collateral damage"]
+		},
+	"move": {
+		"question": [],
+		"bonus": ["give a success to another kid", "impress someone", "go unnoticed"]
+		},
+	"tinker": {
+		"question": [],
+		"bonus": ["give a success to another kid", "(when building) the thing you built is more durable than expected (+1)", "(when building) the thing you built can do more than expected (+1)", "(when building) the thing you built is more discreet than expected (+1)", "avoid rolls for the exact same trouble in the future", "do it quickly", "do it quietly", "show off"]
+		},
+	"program": {
+		"question": [],
+		"bonus": ["give a success to another kid", "(when creating) the code you wrote is more effective than expected (+1)", "(when creating) the code you wrote can do more than expected (+1)", "avoid rolls for the exact same trouble in the future", "do it quickly", "get new or unexpected information", "show off"]
+		},
+	"calculate": {
+		"question": ["What is its purpose?", "How does it work?", "How can I use it?", "Who built it?", "What problems could it cause?", "Is it illegal?"],
+		"bonus": ["ask an additional question and get +1 when you use that information (max +3)"]
+		},
+	"contact": {
+		"question": [],
+		"bonus": ["your contact has the right equipment with them", "your contact heals one of your conditions", "your contact brings more help", "avoid rolls to contact this person in the future", "your contact knows something important", "use your contact once with a +1 bonus (max +3)"]
+		},
+	"charm": {
+		"question": [],
+		"bonus": ["they keep believing you", "you form a lasting relationship", "they will take risks to help you", "they will persuade others to believe you", "they are frightened, confused, or impressed", "they are infatuated"]
+		},
+	"lead": {
+		"question": [],
+		"bonus": ["(when leading) gain an additional 2 dice in your dice pool", "(when healing) heal an additional condition", "(when healing) heal one of your own conditions"]
+		},
+	"investigate": {
+		"question": ["What is hidden here and where is it?", "What does it mean?", "What has happened here?", "How can I get into/out of/past something?", "What threats can I perceive here?", "Where is it?"],
+		"bonus": ["ask an additional question and get +1 when you use that information (max +3)"]
+		},
+	"comprehend": {
+		"question": [],
+		"bonus": ["get additional information and +1 when you use the information (max +3)"]
+		},
+	"empathize": {
+		"question": ["What is their weak spot?", "How can I make them do something?", "What do they feel?", "What do they want?", "What will they do?", "Are they lying?"],
+		"bonus": ["ask an additional question and get +1 when you use that information (max +3)"]
+		}
+}
