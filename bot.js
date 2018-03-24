@@ -39,7 +39,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				if(!args[0]) {
 					bot.sendMessage({
 						to: channelID,
-						message: 'Please specify an attribute to roll against'
+						message: 'Please specify an attribute to roll against - choose from Body, Sneak, Force, Move, Tech, Tinker, Program, Calculate, Heart, Contact, Charm, Lead, Mind, Investigate, Comprehend, or Empathize'
 					});
 					break;
 				}
