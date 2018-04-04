@@ -95,7 +95,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					to: channelID,
 					message: 'You rolled ' + successes + ' success - you ' + (successes > 0 ? 'passed!' : 'failed.')
 				});
-				if(skills[args[0]]) {
+				if(successes == 0) {
+					bot.sendMessage({
+						to: channelID,
+						message: 'Remember, you can use your pride for an auto-success, or reroll failed dice by spending a luck point or suffering a condition'
+					});
+				} else if(skills[args[0]]) {
 					if(successes > 0 && skills[args[0]].question.length > 0) {
 						bot.sendMessage({
 							to: channelID,
