@@ -66,10 +66,10 @@
 		"contact": 7,
 		"charm": 6,
 		"lead": 6,
-		"mind": 3,
-		"investigate": 3,
-		"comprehend": 3,
-		"empathize": 3
+		"mind": 4,
+		"investigate": 4,
+		"comprehend": 4,
+		"empathize": 4
 	},
 	"Nathan": {
 		"body": 5,
@@ -88,5 +88,23 @@
 		"investigate": 2,
 		"comprehend": 2,
 		"empathize": 2
+	},
+	"WarrenDB": {
+		"body": 3,
+		"sneak": 5,
+		"force": 3,
+		"move": 3,
+		"tech": 3,
+		"tinker": 4,
+		"program": 3,
+		"calculate": 3,
+		"heart": 2,
+		"contact": 3,
+		"charm": 2,
+		"lead": 2,
+		"mind": 4,
+		"investigate": 7,
+		"comprehend": 4,
+		"empathize": 7	
 	}
 }
